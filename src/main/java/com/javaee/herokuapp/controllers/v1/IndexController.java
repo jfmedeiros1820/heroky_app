@@ -12,6 +12,6 @@ public class IndexController {
 	
 	@GetMapping
 	public String home() {
-		return "Home Principal";
+		return "<h1>Home Principal</h1>";
 	}
 }
